@@ -1,0 +1,300 @@
+.home-box.mode-light {
+    border: 2px solid rgb(233 241 249);
+    border-left: none;
+    /* margin: auto; */
+    margin-left: 2px;
+    width: 500px;
+    height: 600px;
+    background-color: rgb(237, 242, 247);
+    border-radius: 4px;
+    box-shadow: 3px 0px 8px 4px rgb(234 239 244);
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color: black;
+    
+    /* opacity: 0.8; */
+    /* padding: 70px 5px 70px 5px; */
+
+}
+
+.home-box.mode-dark {
+    border: 2px solid rgb(39, 42, 46);
+    border-left: 0px;
+    /* margin: auto; */
+    margin-left: 2px;
+    width: 500px;
+    height: 600px;
+    background-color: rgb(33 37 41);
+    border-radius: 4px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    box-shadow: 3px 0px 8px 4px rgb(29, 32, 35);
+    color: white;
+    /* opacity: 0.8; */
+    /* padding: 70px 5px 70px 5px; */
+
+}
+
+.home-box.mode-light input {
+    color: black;
+    background-color: rgb(227, 230, 232);
+}
+
+.home-box.mode-dark input {
+    color: white;
+    background-color: rgb(75, 74, 74);
+}
+
+.home-box.mode-light #pass-span {
+    color: black;
+    background-color: rgb(227, 230, 232);
+}
+
+.home-box.mode-dark #pass-span {
+    color: white;
+    background-color: rgb(75, 74, 74);
+}
+
+#pass-span :hover {
+    cursor: pointer;
+}
+
+.homeImage.mode-dark {
+    border: 2px solid rgb(39, 42, 46);
+    border-right: 0px;
+    border-radius: 4px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    box-shadow: 3px 5px 8px 0px rgb(29, 32, 35);
+    width: 500px;
+    height: 600px;
+    margin-left: 250px;
+    background-image: url('E:\\Django\\Project\\Assets\\new3b.jpg');
+    /* background-size: '0px 600px'; */
+    background-repeat: 'no-repeat';
+    background-position: 'center';
+    height: '1000vh';
+}
+
+.homeImage.mode-light {
+    border: 2px solid rgb(233 241 249);
+    border-right: none;
+    border-radius: 4px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    box-shadow: 3px 5px 8px 0px rgb(234 239 244);
+    width: 500px;
+    height: 600px;
+    margin-left: 250px;
+    background-image: url('E:\\Django\\Project\\Assets\\nr.png');
+    /* background-size: '0px 600px'; */
+    background-repeat: 'no-repeat';
+    background-position: 'center';
+    height: '1000vh';
+}
+
+.home {
+    display: flex;
+    /* background-image: url('E:\\Django\\Project\\Assets\\download.jpg');
+    background-size: 'cover';
+    background-repeat: 'no-repeat';
+    background-position: 'center';
+    height: '1000vh'; */
+}
+
+.voter-form {
+    margin: auto;
+    display: none;
+    width: 400px;
+}
+
+.voter-form.show {
+    display: block;
+}
+
+.voter-form h4 {
+    text-align: center;
+}
+
+.admin-form {
+    margin: auto;
+    display: none;
+    width: 400px;
+}
+
+.admin-form.show {
+    display: block;
+}
+
+.admin-form h4 {
+    text-align: center;
+}
+
+.home-tab-buttons {
+    display: flex;
+    margin-top: 0%;
+}
+
+.log {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.tablinks.mode-light {
+    flex: 1;
+    text-align: center;
+    margin: auto;
+    background-color: transparent;
+    border: none;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(200, 223, 245);
+}
+
+.tablinks.mode-light:hover {
+    cursor: pointer;
+    background-color: rgb(233 241 249);
+
+}
+
+.tablinks.mode-light.active {
+    background-color: rgb(233 241 249);
+
+}
+
+.tablinks.mode-dark {
+    flex: 1;
+    text-align: center;
+    margin: auto;
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(23, 27, 32);
+}
+
+.tablinks.mode-dark:hover {
+    cursor: pointer;
+    background-color: rgb(26, 29, 33);
+}
+
+.tablinks.mode-dark.active {
+    background-color: rgb(26, 29, 33);
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+    position: relative;
+    transition: transform 0.5s;
+}
+
+.tabcontent-container {
+    padding: 20px 5px 70px 5px;
+}
+
+.tabcontent.show {
+    display: block;
+}
+
+.tabcontent.left-to-right {
+    animation: flipFromLeft 0.5s;
+}
+
+.tabcontent.right-to-left {
+    animation: flipFromRight 0.5s;
+}
+
+@keyframes flipFromLeft {
+    from {
+        transform: perspective(900px) rotateY(90deg);
+    }
+
+    to {
+        transform: perspective(900px) rotateY(0deg);
+    }
+}
+
+@keyframes flipFromRight {
+    from {
+        transform: perspective(900px) rotateY(-90deg);
+    }
+
+    to {
+        transform: perspective(900px) rotateY(0deg);
+    }
+}
+
+
+@media screen and (max-width: 780px) {
+
+    .home-box.mode-light {
+        margin: auto;
+        width: 90vw;
+        height: 100vh;
+    }
+
+    .home-box.mode-dark {
+        margin: auto;
+        width: 90vw;
+        height: 100vh;
+    }
+
+    .voter-form {
+        width: 80vw;
+    }
+    
+    .admin-form {
+        width: 80vw;
+    }
+
+    .homeImage.mode-light {
+        display: none;
+    }
+    .homeImage.mode-dark {
+        display: none;
+    }
+}
+
+/* .tabcontent.flip {
+    animation: flip 0.5s;
+}
+
+@keyframes flip {
+    0% {
+        transform: perspective(400px) rotateY(90deg);
+    }
+
+    100% {
+        transform: perspective(400px) rotateY(0deg);
+    }
+} */
+
+
+
+/* .flip {
+    transform-style: preserve-3d;
+}
+
+.flip-enter {
+    transform: rotateY(90deg);
+}
+
+.flip-enter-active {
+    transform: rotateY(0deg);
+    transition: transform 0.5s;
+}
+
+.flip-exit {
+    transform: rotateY(0deg);
+}
+
+.flip-exit-active {
+    transform: rotateY(-90deg);
+    transition: transform 0.5s;
+} */

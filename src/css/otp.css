@@ -1,0 +1,201 @@
+/* .otp-container.mode-light {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.otp-container.mode-dark {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+} */
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+.otp-input-container.mode-light {
+    display: flex;
+    justify-content: center;
+    color: black;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border: 2px solid rgb(233 241 249);
+    border-radius: 4px;
+    box-shadow: 3px 5px 8px 4px rgb(234 239 244);
+}
+
+.otp-input-container.mode-dark {
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border: 2px solid rgb(39, 42, 46);
+    border-radius: 4px;
+    box-shadow: 3px 5px 8px 4px rgb(29, 32, 35);
+}
+
+.otp-input {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+} */
+
+.otpitems {
+    margin: 15% 18%;
+}
+
+.timer {
+    margin: 10% 35%;
+}
+
+.timer-resend {
+    margin-top: 10%;
+}
+
+#otpheader {
+    margin: 10% 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#verifyButton {
+    margin: 10% 25%;
+    width: 50%;
+}
+
+/* 
+@media screen and (max-width: 380) {
+    .otp-input-container.mode-light {
+        margin-top: 25%;
+        width: 90vw;
+        height: 50vh;
+    }
+    
+    .otp-input-container.mode-dark {
+        margin-top: 25%;
+        width: 90vw;
+        height: 50vh;
+    }
+
+    .otpitems {
+        margin: 5% 3%;
+    }
+
+    .otp-input {
+        width: 12%;
+    }
+
+    #otpheader {
+        margin: 10% 15%;
+    }
+} */
+
+@media screen and (max-width: 780px) {
+    .otp-input-container.mode-light {
+        margin-top: 5%;
+        width: 90vw;
+        height: 75vh;
+    }
+
+    .otp-input-container.mode-dark {
+        margin-top: 5%;
+        width: 90vw;
+        height: 75vh;
+    }
+
+    .otpitems {
+        margin: 5% 3%;
+    }
+
+    .otp-input {
+        width: 8%;
+    }
+
+    .otpinputs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .timer-resend {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #otpheader {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .otp-input-container.mode-light {
+        margin-top: 25%;
+        width: 90vw;
+        height: 50vh;
+    }
+
+    .otp-input-container.mode-dark {
+        margin-top: 25%;
+        width: 90vw;
+        height: 50vh;
+    }
+
+    .otpitems {
+        margin: 5% 3%;
+    }
+
+    .otp-input {
+        width: 12%;
+    }
+
+    .otpinputs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .timer-resend {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #otpheader {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

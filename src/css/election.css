@@ -1,0 +1,64 @@
+.add.mode-light {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 400px;
+    color: black;
+}
+
+.add.mode-dark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    color: white;
+    width: 400px;
+}
+
+.bottomLine.mode-light {
+    margin-top: 4%;
+    border-bottom: 2px solid rgb(206, 219, 233);
+}
+
+.bottomLine.mode-dark {
+    margin-top: 4%;
+    border-bottom: 2px solid rgb(39, 42, 46);
+}
+
+.add.mode-light input{
+    color: black;
+    background-color: rgb(227, 230, 232);
+}
+
+.add.mode-dark input{
+    color: white;
+    background-color: rgb(75, 74, 74);
+}
+
+.elections-status-label.mode-light {
+    color: black;
+    margin: 2%;
+    text-align: center;
+}
+
+.elections-status-label.mode-dark {
+    color: white;
+    margin: 2%;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 330px) {
+    /* #root {
+        width: 100%;
+    } */
+
+    .add.mode-light {
+        width: 100%;
+    }
+
+    .add.mode-dark {
+        width: 100%;
+    }
+}

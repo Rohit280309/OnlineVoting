@@ -1,0 +1,123 @@
+.dashboard.mode-light {
+    margin-left: 200px;
+    color: black;
+}
+
+.dashboard.mode-dark {
+    margin-left: 200px;
+    color: white;
+}
+
+.small-box {
+    width: 300px;
+    height: 130px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.small-box.elections {
+    border: 1px solid aqua;
+    background-color: aqua;
+}
+
+.small-box.candidates {
+    border: 1px solid rgb(0, 255, 98);
+    background-color: rgb(0, 255, 98);
+}
+
+.small-box.voters {
+    border: 1px solid rgb(255, 0, 0);
+    background-color: rgb(255, 0, 0);
+}
+
+.dashboard-header.mode-light {
+    border: 2px solid rgb(236 242 248);
+    border-radius: 10px;
+    width: 175vh;
+    margin: auto;
+    background-color: rgb(236 242 248);
+    padding: 5px 0px;
+}
+
+.dashboard-header.mode-dark {
+    border: 2px solid rgb(39, 42, 46);
+    border-radius: 10px;
+    width: 175vh;
+    margin: auto;
+    background-color: rgb(28, 31, 35);
+    padding: 5px 0px;
+}
+
+.dashboard-cards {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.small-box .icon {
+    transition: all 0.3s linear, font-size 0.3s linear;
+    position: absolute;
+    top: -15px;
+    right: 10px;
+    z-index: 0;
+    font-size: 80px;
+    color: rgba(0, 0, 0, 0.15);
+}
+
+.small-box:hover .icon {
+    font-size: 85px;
+}
+
+.small-box .info {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    color: white;
+    padding: 10px;
+}
+
+.box-footer {
+    text-decoration: none;
+    position: absolute;
+    color: rgb(252 234 234);
+    text-align: center;
+    width: 100%;
+    bottom: 0px;
+}
+
+.box-footer.elections {
+    background-color: rgb(1, 218, 218);
+}
+
+.box-footer.candidates {
+    background-color: rgb(1, 213, 82);
+}
+
+.box-footer.voters {
+    background-color: rgb(213, 1, 1);
+}
+
+.box-footer:hover {
+    color: white;
+}
+
+.results-container {
+    width: 100%;
+    height: 100%;
+    margin: 2%;
+}
+
+/* ::-webkit-scrollbar {
+    border-radius: 6px;
+    background-color: rgb(36, 34, 34);
+}
+
+::-webkit-scrollbar-thumb {
+    border: 6px;
+    border-radius: 6px;
+    background-color: rgb(19, 18, 18);
+} */

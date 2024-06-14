@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Voting</title>
+    <style>
+        button{
+            height: 70px;
+            width: 150px;
+            text-align: center;
+        }
+    </style>
+</head>
+{% block body %}
+<body>
+    <div class="container">
+        <!-- <button type="button" onclick="window.location.href = '/newcandidate';">Enter Candidate</button> -->
+        <a href="/newcandidate" role="button">Enter Candidate</a>
+    </div>
+</body>
+{% endblock body %}
+</html>

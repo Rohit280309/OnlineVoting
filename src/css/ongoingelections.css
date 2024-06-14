@@ -1,0 +1,14 @@
+.ongoing {
+    margin-left: 250px;
+    height: 85vh;
+    width: 84vw;
+}
+
+.ongoing-stat.mode-light {
+    color: black;
+}
+
+.ongoing-stat.mode-dark {
+    color: white;
+}
+

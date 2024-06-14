@@ -1,0 +1,10 @@
+.bars-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 84vw;
+}
+
+.bar {
+    width: 40vw;
+    margin: 1%;
+}

@@ -1,0 +1,25 @@
+{% extends 'index.html' %}
+{% block title %}New Candidate{% endblock title %}
+{% block body %}
+    <form action="/newcandidate" method="post">
+        {% csrf_token %}
+        Enter name : <input type="text" name="name" id="n1" />
+        <button type="submit">Submit</button>
+    </form>
+{% endblock body %}
+
+{% comment %} <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/newcandidate" method="post">
+        {% csrf_token %}
+        Enter name : <input type="text" name="name" id="n1" />
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html> {% endcomment %}

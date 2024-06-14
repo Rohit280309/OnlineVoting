@@ -1,0 +1,211 @@
+.vote.mode-light {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(233 241 249);
+    background-color: rgb(248, 249, 250);
+    box-shadow: 3px 0px 8px 4px rgb(234 239 244);
+    border-radius: 2%;
+    color: black;
+    width: 600px;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.vote.mode-dark {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(33 37 41);
+    border: 2px solid rgb(39, 42, 46);
+    box-shadow: 3px 0px 8px 4px rgb(29, 32, 35);
+    border-radius: 2%;
+    color: white;
+    width: 600px;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.voteButtons {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
+.votebtn {
+    margin-top: 2%;
+    margin-bottom: 15%;
+    margin-right: 5%;
+    width: 5rem;
+    height: 2.5rem;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cname {
+    width: 80px;
+    height: 28px;
+    text-wrap: nowrap;
+}
+
+.party {
+    width: 85px;
+    height: 30px;
+    margin-left: 35%;
+}
+
+.col.col-lg-auto {
+    margin-right: 5%;
+}
+
+.partySign {
+    width: 4.5rem;
+    height: 2.5rem;
+    object-fit: cover;
+}
+
+.row.align-items-center {
+    width: 450px;
+    margin-bottom: 13%;
+}
+
+.voteHeading {
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    white-space: nowrap;
+}
+
+.radio-buttons {
+    width: 40px;
+    height: 15px;
+}
+
+#votepage-radio {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+#votepage-radio:checked {
+    width: 15px;
+    height: 15px;
+}
+
+@media screen and (max-width: 790px) {
+    .vote.mode-light {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid rgb(233 241 249);
+        background-color: rgb(248, 249, 250);
+        box-shadow: 3px 0px 8px 4px rgb(234 239 244);
+        border-radius: 2%;
+        color: black;
+        width: 90vw;
+        margin: auto;
+        margin-top: 3%;
+    }
+
+    .vote.mode-dark {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(33 37 41);
+        border: 2px solid rgb(39, 42, 46);
+        box-shadow: 3px 0px 8px 4px rgb(29, 32, 35);
+        border-radius: 2%;
+        color: white;
+        width: 90vw;
+        margin: auto;
+        margin-top: 3%;
+    }
+
+    .inside-box {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .row.align-items-center {
+        width: 450px;
+        margin-left: 58px;
+    }
+    /* .candidate-details {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 275px;
+    }
+
+
+    .party {
+        display: none;
+    } */
+}
+
+@media screen and (max-width: 480px) {
+    .vote.mode-light {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid rgb(233 241 249);
+        background-color: rgb(248, 249, 250);
+        box-shadow: 3px 0px 8px 4px rgb(234 239 244);
+        border-radius: 2%;
+        color: black;
+        width: 90vw;
+        margin: auto;
+        margin-top: 3%;
+    }
+
+    .vote.mode-dark {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(33 37 41);
+        border: 2px solid rgb(39, 42, 46);
+        box-shadow: 3px 0px 8px 4px rgb(29, 32, 35);
+        border-radius: 2%;
+        color: white;
+        width: 90vw;
+        margin: auto;
+        margin-top: 3%;
+    }
+
+    .inside-box {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .candidate-details {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 275px;
+    }
+
+    .row.align-items-center {
+        margin-top: 3%;
+        width: 276px;
+        margin-bottom: 13%;
+        margin-left: auto;
+    }
+
+    .party {
+        display: none;
+    }
+}

@@ -1,0 +1,50 @@
+.results.mode-light { 
+    margin-left: 250px;
+    width: 70vw;
+    height: 80vh;
+    color: black;
+}
+
+.results.mode-dark { 
+    margin-left: 250px;
+    width: 70vw;
+    height: 80vh;
+    color: white;
+}
+
+@media screen and (max-width: 790px) {
+    .results.mode-light { 
+        width: 70vw;
+        height: 80vh;
+        color: black;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    
+    .results.mode-dark { 
+        width: 70vw;
+        height: 80vh;
+        color: white;
+        margin-left: 20px;
+        margin-top: 20px;
+        
+    } 
+}
+
+@media screen and (max-width: 380px) {
+    .results.mode-light { 
+        width: 70vw;
+        height: 80vh;
+        color: black;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    
+    .results.mode-dark { 
+        width: 70vw;
+        height: 80vh;
+        color: white;
+        margin-left: 20px;
+        margin-top: 20px;
+    } 
+}

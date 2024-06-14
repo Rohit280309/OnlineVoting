@@ -1,0 +1,38 @@
+.card.mode-light {
+    border: 2px solid rgb(233 241 249);
+    background-color: rgb(248, 249, 250);
+    margin: auto;
+    border-radius: 4px;
+    box-shadow: 3px 5px 8px 4px rgb(234 239 244);
+    color: black;
+    margin-bottom: 10px;
+}
+
+.card.mode-dark {
+    border: 2px solid rgb(39, 42, 46);
+    background-color: rgb(33 37 41);
+    margin: auto;
+    border-radius: 4px;
+    box-shadow: 3px 5px 8px 4px rgb(29, 32, 35);
+    color: white;
+    margin-bottom: 10px;
+}
+
+.card-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card.mode-light:hover {
+    transform: scale(1.1);
+}
+
+.card.mode-dark:hover {
+    transform: scale(1.1);
+}
+
+.electionCardBtn {
+    display: flex;
+    justify-content: space-between;
+}

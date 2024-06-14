@@ -1,0 +1,32 @@
+.candidate-container.mode-light {
+    margin-left: 250px;
+    width: 84vw;
+    height: 85vh;
+    color: black;
+}
+
+.candidate-container.mode-dark {
+    margin-left: 250px;
+    width: 84vw;
+    height: 85vh;
+    color: white;
+}
+
+.edit-btn {
+    line-height: 1.0rem;
+    margin-right: 10px;
+}
+
+.candidate-container table {
+    width: 80vw;
+}
+
+#candidate-sign {
+    width: 2em;
+    height: 2em;
+}
+
+#action-buttons {
+    /* display: flex; */
+    margin-left: auto;
+}

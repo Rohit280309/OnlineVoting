@@ -1,0 +1,13 @@
+.votes-container.mode-light {
+    margin-left: 250px;
+    width: 82vw;
+    height: 85vh;
+    color: black;
+}
+
+.votes-container.mode-dark {
+    margin-left: 250px;
+    width: 82vw;
+    height: 85vh;
+    color: white;
+}

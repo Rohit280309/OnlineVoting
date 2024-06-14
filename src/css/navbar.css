@@ -1,0 +1,16 @@
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+    border: 2px solid rgb(233 241 249);
+}
+
+.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+    border: 2px solid rgb(39, 42, 46);
+
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+        justify-content: flex-end;
+    }
+}
